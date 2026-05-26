@@ -1,0 +1,260 @@
+/* TABLET & MOBILE: max-width: 1199px */
+@media (max-width: 1199px) {
+  .sidebar {
+    width: 60px;
+    padding: 15px 30px;
+    align-items: center;
+  }
+  .sidebar-logo {
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 25px;
+  }
+  .sidebar-logo .logo-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .sidebar-logo .logo-icon img {
+    width: 20px;
+    height: 20px;
+  }
+  .sidebar-nav {
+    align-items: center;
+    width: 100%;
+  }
+  .nav-icon {
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .sidebar-logo .logo-text {
+    display: none;
+  }
+  .nav-icon span.nav-text,
+  .nav-ic {
+    display: none;
+  }
+  .nav-tra span {
+    display: none;
+  }
+  .main-content {
+    margin-right: 7%;
+    max-width: calc(100% - 7%);
+  }
+  .dashboard-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .sal-in {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .sal-card span.card-value {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  .sal-in .sal-card {
+    width: calc(50% - 12.5px);
+  }
+  .dashboard-g {
+    flex-direction: column;
+  }
+  .table-in {
+    width: 100%;
+  }
+
+  .ca-content {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+  }
+  .s-payment {
+    width: 200%;
+  }
+}
+
+/* TABLET: max-width: 991px */
+@media (max-width: 991px) {
+  .sidebar {
+    width: 60px;
+    padding: 15px 8px;
+    align-items: center;
+  }
+
+  .nav-tra {
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .main-content {
+    margin-right: 60px;
+    max-width: calc(100% - 60px);
+  }
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sal-in .sal-card {
+    width: 100%;
+  }
+
+  .table-in {
+    overflow-x: auto;
+    padding: 15px;
+  }
+  .table {
+    min-width: 700px;
+  }
+  .bill-flex {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .bar-right,
+  .bar-left {
+    padding: 15px;
+  }
+  .bar-right .bar-text h1 {
+    font-size: 28px;
+  }
+  .ca-content {
+    width: 100%;
+  }
+  .s-payment {
+    width: 100%;
+  }
+}
+
+/* MOBILE LARGE: max-width: 767px */
+@media (max-width: 767px) {
+  .sidebar {
+    display: none;
+  }
+  .bar-left .profile .profile-name span {
+    font-size: 12px;
+  }
+  .profile-name p {
+    display: none;
+  }
+  .bar-left .profile .profile-pic {
+    width: 30px;
+    height: 30px;
+  }
+  .bar-left .profile .profile-pic img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .main-content {
+    margin-right: 0;
+    max-width: 100%;
+  }
+  .container {
+    padding: 15px;
+  }
+  .bar-right {
+    width: 70%;
+  }
+  .bar-left {
+    width: 80%;
+  }
+  .bar-right .bar-text h1 {
+    font-size: 24px;
+  }
+  .bar-right .bar-text p {
+    font-size: 12px;
+  }
+  .sal-in {
+    flex-direction: column;
+  }
+  .sal-card {
+    padding: 20px;
+  }
+  .sal-card span.card-value {
+    font-size: 30px;
+  }
+  .table th,
+  .table td {
+    padding: 12px 4px;
+  }
+  .ca-content {
+    flex-direction: column;
+  }
+  .s-budget,
+  .a-expenses,
+  .a-account,
+  .s-payment {
+    padding: 15px;
+  }
+  .card-wrapper {
+    height: 180px;
+  }
+}
+
+/* MOBILE SMALL: max-width: 567px */
+@media (max-width: 567px) {
+  .bar-right .bar-text h1 {
+    font-size: 20px;
+  }
+  .sal-card span.card-value {
+    font-size: 24px;
+  }
+  .sal-card span.card-change {
+    font-size: 12px;
+  }
+  .bar {
+    flex-direction: column;
+    gap: 15px;
+    align-items: stretch;
+  }
+  .bar-right,
+  .bar-left {
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .transaction-details h4 {
+    font-size: 12px;
+  }
+  .transaction-details p {
+    font-size: 10px;
+  }
+  .category-badge {
+    font-size: 10px;
+    padding: 0 6px;
+  }
+  .status-badge {
+    font-size: 10px;
+    padding: 2px 6px;
+  }
+  .amount {
+    font-size: 12px;
+  }
+  .bill-header h3 {
+    font-size: 16px;
+  }
+  .bill-total h4 {
+    font-size: 22px;
+  }
+  .bill-info p {
+    font-size: 14px;
+  }
+
+  .budget-a .bu-a p {
+    font-size: 20px;
+  }
+  .card-front,
+  .card-back {
+    padding: 12px;
+  }
+  .card-top span {
+    font-size: 9px;
+    padding: 2px 6px;
+  }
+  .cnu span.card-number {
+    font-size: 14px;
+  }
+  .card-back-bottom .card-bottom-left span,
+  .card-back-bottom .card-bottom-right span {
+    font-size: 11px;
+  }
+}
